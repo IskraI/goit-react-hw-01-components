@@ -1,0 +1,33 @@
+.statistics {
+  box-sizing: border-box;
+  display: block;
+  display: flex;
+  margin: auto;
+  width: 375px;
+  padding: 15px;
+  margin-bottom: 8px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d9edd2;
+  color: rgb(22, 96, 54);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 37px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.statList {
+  display: flex;
+
+  width: 100%;
+}
