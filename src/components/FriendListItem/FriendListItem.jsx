@@ -4,8 +4,8 @@ import css from './FriendListItem.module.css';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => (
   <li className={css.item}>
-    <span className={clsx(css.status, isOnline && css.isOnline)}></span>
-    <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+    <span className={clsx(css.status, isOnline && css['is-online'])}></span>
+    <img className={css.avatar} src={avatar} alt={css.name} width="48" />
     <p className={css.name}>{name}</p>
   </li>
 );
